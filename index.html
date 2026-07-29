@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio UX/UI</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+<!-- Fancybox (opcional pero recomendado) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">Fernando Nahuelanca</div>
+
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+  <nav id="menu">
+    <a href="#inicio">Inicio</a>
+
+     <a href="#banners">banners</a>   
+    <a href="#grafica">gráfica</a>
+
+    <a href="#ilustraciones">ilustraciones</a>
+    <a href="#contacto">contacto</a>
+  </nav>
+</header>
+
+<!-- INICIO -->
+<section id="inicio" class="hero">
+  <h1 class="anim">Diseño experiencias digitales</h1>
+  <p class="aclaraciones">UX/UI Designer enfocado en productos modernos</p>
+</section>
+
+<!-- SOBRE MI-->
+<section id="sobre">
+    <h2 class="anim">Sobre mí</h2>
+  <div class="sobremi">
+  <img src="img/fotocv.jpg" class="fotocv" alt="">
+  <p class="aclaraciones">
+    Diseñador UX/UI enfocado en resolver problemas reales mediante investigación y diseño visual.
+  </p>
+   </div>
+
+</section>
+
+
+
+<!-- PROYECTOS / GALERÍA -->
+<section id="banners">
+
+  <h2 class="anim">Banners</h2>
+
+  <ul class="galeria">
+
+
+  <li class="avisos">
+<a data-fancybox="gallery"
+   data-type="iframe"
+   data-src="banners/2018_01/script.html"
+   data-width="95%"
+   data-height="95%">
+   <img src="banners/0-btn-banners/btn-banners-01.jpg" alt="">
+</a>
+    </li>
+
+  <li class="avisos">
+<a data-fancybox="gallery"
+   data-type="iframe"
+   data-src="banners/2018_02/script.html"
+   data-width="95%"
+   data-height="95%">
+   <img src="banners/0-btn-banners/btn-banners-02.jpg" alt="">
+</a>
+    </li>
+
+      <li class="avisos">
+<a data-fancybox="gallery"
+   data-type="iframe"
+   data-src="banners/2018_03/index.html"
+   data-width="95%"
+   data-height="95%">
+   <img src="banners/0-btn-banners/btn-banners-03.jpg" alt="">
+</a>
+    </li>  <li class="avisos">
+<a data-fancybox="gallery"
+   data-type="iframe"
+   data-src="banners/2018_04/script.html"
+   data-width="95%"
+   data-height="95%">
+   <img src="banners/0-btn-banners/btn-banners-04.jpg" alt="">
+</a>
+    </li>
+
+      <li class="avisos">
+<a data-fancybox="gallery"
+   data-type="iframe"
+   data-src="banners/2018_05/script.html"
+   data-width="95%"
+   data-height="95%">
+   <img src="banners/0-btn-banners/btn-banners-05.jpg" alt="">
+</a>
+    </li>
+
+
+  <li class="avisos">
+<a data-fancybox="gallery"
+   data-type="iframe"
+   data-src="banners/2019_01/index.html"
+   data-width="95%"
+   data-height="95%">
+   <img src="banners/0-btn-banners/btn-banners-06.jpg" alt="">
+</a>
+    </li>
+
+      <li class="avisos">
+<a data-fancybox="gallery"
+   data-type="iframe"
+   data-src="banners/2019_02/script.html"
+   data-width="95%"
+   data-height="95%">
+   <img src="banners/0-btn-banners/btn-banners-07.jpg" alt="">
+</a>
+    </li>
+
+  <li class="avisos">
+<a data-fancybox="gallery"
+   data-type="iframe"
+   data-src="banners/2018_Chevy Performance_300x250/index.html"
+   data-width="95%"
+   data-height="95%">
+   <img src="banners/0-btn-banners/btn-banners-08.jpg" alt="">
+</a>
+    </li>
+
+
+
+    <li class="avisos">
+<a data-fancybox="gallery"
+   data-type="iframe"
+   data-src="banners/banner001/script.html"
+   data-width="95%"
+   data-height="95%">
+   <img src="banners/0-btn-banners/btn-banners-09.jpg" alt="">
+</a>
+    </li>
+
+
+        <li class="avisos">
+<a data-fancybox="gallery"
+   data-type="iframe"
+   data-src="banners/CIG11237774_Cigna_DentalCGI_2019Savings_300x250/index.html"
+   data-width="95%"
+   data-height="95%">
+   <img src="banners/0-btn-banners/btn-banners-10.jpg" alt="">
+</a>
+    </li>
+
+
+            <li class="avisos">
+<a data-fancybox="gallery"
+   data-type="iframe"
+   data-src="banners/20CIG11278439_CSBBanner_TRAVEL_ARLIC_300x250/index.html"
+   data-width="95%"
+   data-height="95%">
+   <img src="banners/0-btn-banners/btn-banners-11.jpg" alt="">
+</a>
+    </li>
+
+
+
+
+
+        <li class="avisos">
+<a data-fancybox="gallery"
+   data-type="iframe"
+   data-src="banners/Clicktag_GWD_GenericAD_Clarin/latam_arg_travel_sale_dom_clarin_300x250.html"
+   data-width="95%"
+   data-height="95%">
+   <img src="banners/0-btn-banners/btn-banners-12.jpg" alt="">
+</a>
+    </li>
+
+            <li class="avisos">
+<a data-fancybox="gallery"
+   data-type="iframe"
+   data-src="banners/gmar_lollapre_multichan_728x90_728x300_mar/gmar_lollapre_multichan_728x90_728x300_mar.html"
+   data-width="95%"
+   data-height="95%">
+   <img src="banners/0-btn-banners/btn-banners-13.jpg" alt="">
+</a>
+    </li>
+
+
+                <li class="avisos">
+<a data-fancybox="gallery"
+   data-type="iframe"
+   data-src="banners/Banner_expandible_html5_lanacion_970x90_970x250_montanha/970x250.html"
+   data-width="95%"
+   data-height="95%">
+   <img src="banners/0-btn-banners/btn-banners-14.jpg" alt="">
+</a>
+    </li>
+
+
+                    <li class="avisos">
+<a data-fancybox="gallery"
+   data-type="iframe"
+   data-src="banners/2023_Canyon_300x250_1QTL/index.html"
+   data-width="95%"
+   data-height="95%">
+   <img src="banners/0-btn-banners/btn-banners-15.jpg" alt="">
+</a>
+    </li>
+
+                    <li class="avisos">
+<a data-fancybox="gallery"
+   data-type="iframe"
+   data-src="banners/2021»Corvette Stingray»»CW»LS»None»TPS»C8-IMSA»H5S»US»ENG»v1»300x250»/index.html"
+   data-width="95%"
+   data-height="95%">
+   <img src="banners/0-btn-banners/btn-banners-16.jpg" alt="">
+</a>
+    </li>
+
+                       <li class="avisos">
+<a data-fancybox="gallery"
+   data-type="iframe"
+   data-src="banners/2022»Buick Multi-Line»LB»LS»None»Parallel Parking»»H5RM»US»ENG»v1»300x250»NA/index.html"
+   data-width="95%"
+   data-height="95%">
+   <img src="banners/0-btn-banners/btn-banners-17.jpg" alt="">
+</a>
+    </li>
+
+                        <li class="avisos">
+<a data-fancybox="gallery"
+   data-type="iframe"
+   data-src="banners/2023»Enclave»LB»LS»None»Enclave Slideshow»»H5S»US»ENG»v1»300x250»NA/index.html"
+   data-width="95%"
+   data-height="95%">
+   <img src="banners/0-btn-banners/btn-banners-18.jpg" alt="">
+</a>
+    </li>   
+
+                        <li class="avisos">
+<a data-fancybox="gallery"
+   data-type="iframe"
+   data-src="banners/chevy_lightbox_300x250_holiday/chevy_lightbox.html"
+   data-width="95%"
+   data-height="95%">
+   <img src="banners/0-btn-banners/btn-banners-19.jpg" alt="">
+</a>
+    </li>
+
+
+
+    
+
+
+  </ul>
+
+</section>
+
+
+
+
+
+
+<!-- PROYECTOS / GALERÍA -->
+<section id="grafica">
+
+  <h2 class="anim">Publicidad Gráfica</h2>
+
+  <ul class="galeria">
+
+    <li class="avisos">
+      <a data-fancybox="gallery" href="img/avisos/avisos_01.jpg">
+        <img src="img/avisos/btn_avisos/btn_avisos_01.jpg" alt="">
+      </a>
+    </li>
+
+    <li class="avisos">
+      <a data-fancybox="gallery" href="img/avisos/avisos_02.jpg">
+        <img src="img/avisos/btn_avisos/btn_avisos_02.jpg" alt="">
+      </a>
+    </li>
+
+    <li class="avisos">
+      <a data-fancybox="gallery" href="img/avisos/avisos_03.jpg">
+        <img src="img/avisos/btn_avisos/btn_avisos_03.jpg" alt="">
+      </a>
+    </li>
+
+    <li class="avisos">
+      <a data-fancybox="gallery" href="img/avisos/avisos_04.jpg">
+        <img src="img/avisos/btn_avisos/btn_avisos_04.jpg" alt="">
+      </a>
+    </li>
+
+    <li class="avisos">
+      <a data-fancybox="gallery" href="img/avisos/avisos_05.jpg">
+        <img src="img/avisos/btn_avisos/btn_avisos_05.jpg" alt="">
+      </a>
+    </li>
+
+    <li class="avisos">
+      <a data-fancybox="gallery" href="img/avisos/avisos_06.jpg">
+        <img src="img/avisos/btn_avisos/btn_avisos_06.jpg" alt="">
+      </a>
+    </li>
+
+    <li class="avisos">
+      <a data-fancybox="gallery" href="img/avisos/avisos_07.jpg">
+        <img src="img/avisos/btn_avisos/btn_avisos_07.jpg" alt="">
+      </a>
+    </li>
+
+    <li class="avisos">
+      <a data-fancybox="gallery" href="img/avisos/avisos_08.jpg">
+        <img src="img/avisos/btn_avisos/btn_avisos_08.jpg" alt="">
+      </a>
+    </li>
+
+    <li class="avisos">
+      <a data-fancybox="gallery" href="img/avisos/avisos_09.jpg">
+        <img src="img/avisos/btn_avisos/btn_avisos_09.jpg" alt="">
+      </a>
+    </li>
+
+    <li class="avisos">
+      <a data-fancybox="gallery" href="img/avisos/avisos_10.jpg">
+        <img src="img/avisos/btn_avisos/btn_avisos_10.jpg" alt="">
+      </a>
+    </li>
+
+    <li class="avisos">
+      <a data-fancybox="gallery" href="img/avisos/avisos_11.jpg">
+        <img src="img/avisos/btn_avisos/btn_avisos_11.jpg" alt="">
+      </a>
+    </li>
+
+    <li class="avisos">
+      <a data-fancybox="gallery" href="img/avisos/avisos_12.jpg">
+        <img src="img/avisos/btn_avisos/btn_avisos_12.jpg" alt="">
+      </a>
+    </li>
+
+    <li class="avisos">
+      <a data-fancybox="gallery" href="img/avisos/avisos_13.jpg">
+        <img src="img/avisos/btn_avisos/btn_avisos_13.jpg" alt="">
+      </a>
+    </li>
+
+    <li class="avisos">
+      <a data-fancybox="gallery" href="img/avisos/avisos_14.jpg">
+        <img src="img/avisos/btn_avisos/btn_avisos_14.jpg" alt="">
+      </a>
+    </li>
+
+  </ul>
+
+</section>
+
+
+<!-- ILUSTRACIONES -->
+<section id="ilustraciones">
+
+  <h2 class="anim">ilustraciones</h2>
+
+  <ul class="galeria">
+
+    <li class="avisos">
+      <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_1.jpg">
+        <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_1.jpg" alt="">
+      </a>
+    </li>
+
+        <li class="avisos">
+      <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_2.jpg">
+        <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_2.jpg" alt="">
+      </a>
+    </li>
+
+      <li class="avisos">
+      <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_3.jpg">
+        <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_3.jpg" alt="">
+      </a>
+    </li>
+
+        <li class="avisos">
+      <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_4.jpg">
+        <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_4.jpg" alt="">
+      </a>
+    </li>
+
+        <li class="avisos">
+      <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_5.jpg">
+        <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_5.jpg" alt="">
+      </a>
+    </li>
+
+        <li class="avisos">
+      <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_6.jpg">
+        <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_6.jpg" alt="">
+      </a>
+    </li>
+
+        <li class="avisos">
+      <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_7.jpg">
+        <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_7.jpg" alt="">
+      </a>
+    </li>
+
+        <li class="avisos">
+      <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_8.jpg">
+        <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_8.jpg" alt="">
+      </a>
+    </li>
+
+        <li class="avisos">
+      <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_9.jpg">
+        <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_9.jpg" alt="">
+      </a>
+    </li>
+
+<li class="avisos">
+  <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_10.jpg">
+    <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_10.jpg" alt="">
+  </a>
+</li>
+<li class="avisos">
+  <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_11.jpg">
+    <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_11.jpg" alt="">
+  </a>
+</li>
+<li class="avisos">
+  <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_12.jpg">
+    <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_12.jpg" alt="">
+  </a>
+</li>
+<li class="avisos">
+  <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_13.jpg">
+    <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_13.jpg" alt="">
+  </a>
+</li>
+<li class="avisos">
+  <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_14.jpg">
+    <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_14.jpg" alt="">
+  </a>
+</li>
+<li class="avisos">
+  <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_15.jpg">
+    <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_15.jpg" alt="">
+  </a>
+</li>
+<li class="avisos">
+  <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_16.jpg">
+    <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_16.jpg" alt="">
+  </a>
+</li>
+<li class="avisos">
+  <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_17.jpg">
+    <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_17.jpg" alt="">
+  </a>
+</li>
+<li class="avisos">
+  <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_18.jpg">
+    <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_18.jpg" alt="">
+  </a>
+</li>
+<li class="avisos">
+  <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_19.jpg">
+    <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_19.jpg" alt="">
+  </a>
+</li>
+<li class="avisos">
+  <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_20.jpg">
+    <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_20.jpg" alt="">
+  </a>
+</li>
+<li class="avisos">
+  <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_21.jpg">
+    <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_21.jpg" alt="">
+  </a>
+</li>
+<li class="avisos">
+  <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_22.jpg">
+    <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_22.jpg" alt="">
+  </a>
+</li>
+<li class="avisos">
+  <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_23.jpg">
+    <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_23.jpg" alt="">
+  </a>
+</li>
+<li class="avisos">
+  <a data-fancybox="gallery" href="img/ilustraciones/ilustraciones_24.jpg">
+    <img src="img/ilustraciones/btn_ilustraciones/btn_ilustraciones_24.jpg" alt="">
+  </a>
+</li>
+
+
+
+  </ul>
+
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <h2 class="anim">Contacto</h2>
+  <p class="anim">Email: fernahuelanca@gmail.com</p>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
